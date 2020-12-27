@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  background-color: #F9F9F9;
+}
+
+/* Style the header */
+
+h1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    color: #353535; 
+    text-align: center;
+}
+
+
+.header {   
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 60px;
+    color: #353535;
+
+}
+
+h2 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 45px;
+    color: #F56127;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+    color: #353535;
+}
+body {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #565656;
+}
+
+p.normal {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 23px;
+    color: #353535;
+}
+
+p.highlight {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 23px;
+    margin: auto;
+}
+
+p.link{
+    font-weight: bold;
+    color: #F56127;
+    text-align:left;
+}
+
+div.c{    
+    text-align: left;
+    width: 50%;
+    padding: 10px;
+    margin:auto;
+}
+
+div.d{    
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+    margin:auto;
+    margin-top: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #F56127;;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  font-family: Mulish;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 40px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #EB4A0B;
+  color: white;
+}
+
+/* button */
+.button {
+  background: #F56127;
+  box-shadow: 0px 2px 15px rgba(245, 97, 39, 0.56);
+  border-radius: 10px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: auto;
+  cursor: pointer;
+
+}
+
+.button:hover {
+  background-color: #EB4A0B;
+  box-shadow: 0px 5px 20px rgba(245, 97, 39, 0.78);
+  border-radius: 10px;
+}
+
+.container { 
+  height: 300px;
+  position: relative;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/* divider */
+hr.dotted {
+  border-top: 2px dotted #C6C6C6;
+  margin-bottom: 50px;
+    margin-top: 30px;
+  width: 50%;
+}
+
+/* picture center */
+.picCenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+    margin-top: 80px;
+}
