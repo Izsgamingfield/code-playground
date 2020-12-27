@@ -1,37 +1,35 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<title>Yunsheng's first page</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="print.css" media="print"/>
+</head>
+<body>
+	<h1>RIT ISTE-645 Foundations of Web Tech I</h1>
+	<h2 class="screenonly">First Web Page by Yunsheng Zhou</h2>
+	<h2 class="printonly">Yunshen's printing page</h2>
+    <img class="printonly" src="project1/assets/img/businessAttire.png" alt="photo"/>
+		<p class="screenonly"><a href="https://mycourses.rit.edu/d2l/lms/classlist/classlist.d2l?ou=843895">Class list</a><br></p>
+	
+	<p class="first">
+	Some of my favourite websites:<br>
+	<a href="https://uxmag.com/">UXMAGAZINE</a><br><a href="https://www.uxmatters.com/">UXmatters</a><br><a href="http://cofolios.com/">Cofolios</a><br>
+	My career interests are User Experience Designer, Competition Winning Game Designer, and Visual Explorer.</p>
 
-You can use the [editor on GitHub](https://github.com/yszhou666/yszhou.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/yszhou666/yszhou.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+	<p class="screenonly">
+	<a href="exercises/movies.html">Movies</a><br>
+    <a href="exercises/recipe.html">Recipe</a><br>
+    <a href="homework/recipe2.html">Recipe2</a><br>
+    <a href="recipeExercise/recipeExercise.html">Recipe CSS Exercise</a><br>
+    <a href="project1/index.html">Project1</a><br>
+    <a href="darthStarFiles/darth.html">Dartn Star</a><br>
+    <a href="project2/index.html">Project2</a><br>
+    <a href="project3/index.html">Project3</a>    
+	</p>
+<p class="second">Copyright 2020Yunsheng Zhou
+	All rightsreserved</p> 
+        
+</body>
+</html>
