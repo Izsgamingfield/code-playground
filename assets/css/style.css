@@ -1,0 +1,371 @@
+body {margin: 0; background-color: #F9FAFF;}
+html { overflow-y: scroll;}
+
+/* Structure */
+#main {
+    width: 50%;
+    margin-right: 2%;
+    float: left;
+    margin-top: 100px;
+}
+aside{
+    width: 45%;
+    float:left;
+    text-align: left;
+    margin-top: 200px;
+    margin-bottom: 5px;
+}
+#wrapper {
+    width: 96%;
+    max-width: 1420px;
+    margin: auto;
+    padding: 2%;}
+#pic{
+float: left;
+    margin-bottom: 5px;
+    margin-top: 160px;
+    width: 80%;
+    text-align: center;}
+#pic img {width: 100%;}
+
+/* column */	
+* {
+  box-sizing: border-box;}
+
+.row {display: flex;}
+
+.column {
+    flex: 33.33%;
+    padding: 25px;
+    text-align: center;}
+#main2 {
+    width: 60%;
+    margin-right: 1%;
+    float: left;
+    margin-top: 10px;
+}
+#main3 {
+    width: 60%;
+    margin-right: 1%;
+    float: left;
+    margin-top: 10px;
+}
+#main4 {
+    width: 60%;
+    margin-right: 1%;
+    float: left;
+    margin-top: 10px;
+}
+.aside2{
+    width: 35%;
+    float:left;
+    margin-top: 2px;
+    margin-bottom: 200px;
+    text-align: left; }
+
+#pic2{
+    float: left;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    width: 95%;
+    text-align: center;}
+#pic3{
+    float: left;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    width: 95%;
+    text-align: center;}
+#pic4{
+    float: left;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    width: 95%;
+    text-align: center;}
+footer {
+    background-color: #E9EAF4;
+    text-align: left;
+    margin-top: 15px;
+    padding: 40px;
+    padding-left: 10%;
+    color: gray;
+    width: 100%;}
+
+/* Banner */			
+#banner {
+float: left;
+margin-bottom: 10px;
+margin-top: 10px;
+width: 100%;}
+#banner img {width: 100%;}
+
+#content {
+float: left;
+margin-bottom: 10px;
+margin-top: 10px;
+width: 100%;}
+
+#section {
+float: left;
+margin-bottom: 100px;
+margin-top: 100px;
+width: 100%;}
+#banner img {width: 100%;}
+
+div.outside{    
+    text-align: center;
+    width: 96%;
+    padding: 10px;
+    margin:auto;
+    margin-top: 80px;
+}
+
+/* divider */
+hr.line {
+    border: 0.5px solid #E4E4E4;
+    margin-bottom: 10px;
+    margin-top: 80px;
+    margin:auto;
+    width: 40%;
+    opacity: 0.1;}
+
+/* Logo H6 */
+.logo{
+    text-align: left;
+    padding: 10px;
+    margin-left: 50px;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #4C71FF;
+  position:absolute;
+  top: 0;
+  width: 100%;
+}
+
+/* Font Style */
+h1{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 112px;
+    line-height: 144px;
+    color: #E5E7ED;
+    padding: 2px;
+    margin-bottom: 5px;}
+h2 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 64px;
+    color: #303030;
+    margin-top: 2px;}
+h3{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 58px;
+    color: #424242;}
+h4 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 43px;
+    color: #424242;}
+h5 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 9px;
+    line-height: 10px;
+    color: #F9FAFF;}
+body {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    color: #575757;
+    margin-bottom: 0px;}
+.more{
+    font-family: Lato;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 30px;
+text-decoration-line: underline;
+color: #4C71FF;
+}
+
+/* Responsive Videos */
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* buttons */
+.button {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 30px rgba(76, 113, 255, 0.16);
+  border-radius: 41px;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: auto;
+  margin-top:30px;
+  cursor: pointer;
+    position:relative;
+    display: flex;
+    transition: 0.5s;
+}
+.button:hover {
+background: #4C71FF;
+box-shadow: 0px 0px 40px rgba(76, 113, 255, 0.5);
+    color: white;
+}
+.container { 
+    height: 200px;
+    position: relative;
+    display: flex;
+}
+.left {
+    margin: 0;
+    position:relative;
+    display: flex;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%, -50%);}
+
+/* icon button */
+.iconloca{
+  margin: auto;
+  width: 60%;
+    float:none;}
+
+.icon{
+    margin-top: 10px;
+    padding: 5px;
+    position: relative;
+    text-align: center;
+    left: 10%;
+    margin: auto;
+    width: 30%}
+
+.icon:hover {
+    filter: invert(50%) sepia(11%) saturate(6958%) hue-rotate(187deg) brightness(102%) contrast(107%);}
+
+/* unvisited link */
+a:link {
+    color: #4D71FF;
+    text-decoration:none;
+    transition: 0.5s;}
+
+/* visited link */
+a:visited {
+    color: #2753FD;}
+
+/* mouse over link */
+a:hover {
+    color: #B8C6FF;}
+
+/* selected link */
+a:active {
+    color:  #E8E8E8;}
+
+/* divider */
+hr.line {
+    border: 1px solid #3F3F3F;
+    margin-bottom: 60px;
+    margin-top: 10px;
+    width: 100%;}
+
+/* Media Queries */
+@media screen and (max-width: 375px) {
+#skipTo {
+display: block;
+}
+header nav, #main, aside {
+float:left;
+clear: left;
+margin: 0 0 10px;
+width: 100%;
+    }
+.logo{
+    padding: 3px;
+    margin-left: 20px;}
+#main {
+    margin-top: 100px;
+    width: 100%}
+    
+#main2 {
+    margin-top: 10px;
+    width: 100%}
+    #main3 {
+    margin-top: 10px;
+    width: 100%}
+    #main4 {
+    margin-top: 10px;
+    width: 100%}
+.button {
+    padding: 15px 10px;}
+#pic{
+float: left;
+    margin-bottom: 2px;
+        margin-top: 300px;}
+h1{font-size: 50px;
+    line-height: 68px;}
+h2 {font-size: 38px;
+    line-height: 48px;}
+h3{font-size: 24px;
+    line-height: 35px;
+    margin: 12px}
+h4{font-size: 22px;}
+    h5{font-size: 0px;}
+body {font-size: 18px;
+    line-height: 24px;}
+    #banner {margin-top: 0px;}
+.button {
+    padding: 15px 18px;
+    display:flex;
+    font-size: 16px;}
+.row {
+  display:inline;
+}
+.column {
+  flex: 33.33%;
+  padding: 15px;
+}        
+div.outside{margin-top: 0px;}
+.aside{
+    width: 95%;
+    margin-left: 5%;
+    margin-bottom: 5px;}
+.aside2{
+    width: 100%;
+margin-left: 0%;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+    .pic{
+    width: 100%;
+}
+    .pic2{
+    width: 100%;
+}
+    .pic3{width: 100%;}
+    .pic4{width: 100%;}
+    #pic{
+float:inherit;
+margin-bottom: 5px;
+margin-top: 40px;
+width: 100%;
+    text-align: center;
+}
+#pic img {width: 100%;}
+}
