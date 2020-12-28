@@ -1,8 +1,7 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Yunsheng's promotion site</title>
+	<title>Yunsheng's code playgtound</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     
@@ -21,7 +20,7 @@
 <!--Say hi part-->
     <aside>
     <p>Hi!👋</p>
-    <h2>I’m YunSheng. </h2>
+    <h2>Welcome to Yunsheng's code playground!</h2>
         <p id="change">User Experience Designer, Competition Winning Game Designer, Visual Explorer.</p>
 <!--JS part to change text content-->
         <p class="more" onclick="myFunction()">What’s more?<svg width="30" height="18" viewBox="0 0 30 18" fill="none" xmlns="http://www.w3.org/2000/svg">
